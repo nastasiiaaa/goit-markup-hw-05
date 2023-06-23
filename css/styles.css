@@ -642,7 +642,7 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-.apps-item:hover .apps-cover-text {
+.apps-item:is(:hover, :focus) .apps-cover-text {
   transform: translateY(0%);
 }
 
@@ -672,7 +672,7 @@ img {
   position: absolute;
   top: 0;
   background: #4d5ae5;
-  padding: 40px;
+  padding: 40px 32px;
   color: var(--back-btn-portfolio);
   font-weight: 400;
   font-size: 16px;
