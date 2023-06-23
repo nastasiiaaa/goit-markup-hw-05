@@ -710,6 +710,10 @@ img {
   transform: translateY(0%);
 }
 
+.apps-link:focus .apps-cover-text {
+  transform: translateY(0%);
+}
+
 /* ---------------MODAL------------------- */
 .backdrop {
   position: fixed;
